@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       child: MaterialApp(
-        title: 'Location Notes',
+        title: 'Location Notes app',
         theme: AppTheme.lightTheme,
         home: const AuthWrapper(),
         debugShowCheckedModeBanner: false,
