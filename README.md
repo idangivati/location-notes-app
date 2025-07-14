@@ -1,16 +1,70 @@
-# stamp_app
+# 📍 Location Notes App
 
-A new Flutter project.
+A Flutter mobile app for creating location-based notes with Google Maps integration.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 User authentication (login/signup)
+- 📝 Create and edit notes with automatic location capture
+- 🗺️ View notes on Google Maps
+- 📱 List view of all your notes
+- ☁️ Real-time sync with Firebase
+- 🎨 Modern, clean UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** - Mobile app framework
+- **Firebase Auth** - User authentication
+- **Firestore** - Database and real-time sync
+- **Google Maps** - Map integration
+- **Geolocator** - Location services
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Quick Start
+
+1. Clone the repository
+2. Run `flutter pub get`
+3. Set up Firebase (add `google-services.json`)
+4. Add Google Maps API key to `android/local.properties`
+5. Run `flutter run`
+
+## 📱 Screenshots
+
+| Login | Home | Create Note | Map View |
+|-------|------|-------------|----------|
+| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Note](screenshots/note.png) | ![Map](screenshots/map.png) |
+
+## ⚙️ Setup
+
+### Firebase Configuration
+1. Create Firebase project
+2. Enable Authentication and Firestore
+3. Download `google-services.json` to `android/app/`
+
+### Google Maps Setup
+1. Get API key from Google Cloud Console
+2. Enable "Maps SDK for Android"
+3. Create `android/local.properties`:
+   ```
+   MAPS_API_KEY=your_api_key_here
+   ```
+
+## 📋 Requirements
+
+- Flutter 3.0+
+- Android SDK
+- Google Maps API Key
+- Firebase Project
+
+## 🐛 Known Issues
+
+- Currently Android only (iOS support can be added)
+- Requires internet connection for sync
+- Location permission required
+
+## 📄 License
+
+MIT License - see LICENSE file for details.
+
+---
+
+**Built with Flutter & Firebase** ❤️
