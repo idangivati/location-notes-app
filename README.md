@@ -27,12 +27,6 @@ A Flutter mobile app for creating location-based notes with Google Maps integrat
 4. Add Google Maps API key to `android/local.properties`
 5. Run `flutter run`
 
-## 📱 Screenshots
-
-| Login | Home | Create Note | Map View |
-|-------|------|-------------|----------|
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Note](screenshots/note.png) | ![Map](screenshots/map.png) |
-
 ## ⚙️ Setup
 
 ### Firebase Configuration
@@ -61,10 +55,3 @@ A Flutter mobile app for creating location-based notes with Google Maps integrat
 - Requires internet connection for sync
 - Location permission required
 
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
----
-
-**Built with Flutter & Firebase** ❤️
